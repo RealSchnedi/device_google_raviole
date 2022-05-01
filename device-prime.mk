@@ -1,6 +1,13 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/raviole/overlay-prime
 
+# ADB
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.debuggable=1 \
+    persist.service.adb.enable=1
+
 # Libraries required for vendor
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor:64 \

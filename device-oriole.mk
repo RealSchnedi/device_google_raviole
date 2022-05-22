@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth_power_limits_G9S9B_EU.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_G9S9B_EU.csv \
     $(LOCAL_PATH)/bluetooth_power_limits_GB7N6_EU.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_GB7N6_EU.csv
 
-
 # Bluetooth SAR test tool
 PRODUCT_PACKAGES_DEBUG += \
     sar_test

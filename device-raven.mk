@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth_power_limits_raven_eu.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_EU.csv \
     $(LOCAL_PATH)/bluetooth_power_limits_raven_jp.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_JP.csv
 
-
 # Bluetooth SAR test tool
 PRODUCT_PACKAGES_DEBUG += \
     sar_test
@@ -173,7 +172,6 @@ PRODUCT_PROPERTY_OVERRIDES += ro.odm.build.media_performance_class=31
 PRODUCT_SOONG_NAMESPACES += \
     device/google/raviole/powerstats/raven \
     device/google/raviole
-
 
 # userdebug specific
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))

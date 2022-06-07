@@ -38,5 +38,7 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     aosp_slider-userdebug \
     aosp_whitefin-userdebug \
+    aosp_oriole-userdebug \
+    aosp_raven-userdebug \
     prime_oriole-userdebug \
     prime_raven-userdebug
